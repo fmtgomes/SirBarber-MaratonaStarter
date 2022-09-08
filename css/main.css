@@ -1,0 +1,201 @@
+/* black1: #0B090A */
+/* black2: #161A1D */
+/* white1: #ffffff */
+/* red1: #BA181B */
+/* red2: #E5383B */
+
+/* Genérico */
+
+body {
+  font-family: "Epilogue", sans-serif;
+  color: #0b090a;
+}
+
+.btn {
+  padding: 20px 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.btn-sm {
+  padding: 12px 24px;
+  font-size: 0.9rem;
+}
+
+.btn-primary {
+  background-color: #E5383B;
+}
+
+.btn-primary:hover {
+  background-color: #ba181b;
+}
+
+.btn-outline {
+  border: 2px solid #ffffff;
+  background-color: transparent;
+}
+
+.btn-outline:hover {
+  color: #d9d9d9;
+}
+
+.container {
+  max-width: 2560px;
+  margin: 0 auto;
+}
+
+.overtitle{
+  font-size: 16px;
+  line-height: 24px;
+  color: #E5383B;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.title{
+  font-size: 44px;
+  line-height: 56px;
+  font-weight: 700;
+}
+
+/* Layout */
+
+#header-container {
+  background-color: #0b090a;
+}
+
+.header {
+  color: #ffffff;
+  padding: 24px 72px;
+  display: flex;
+  /* Justify-content alinha de forma horizontal, a nao ser que a flex-direction seja COLUMN */
+  justify-content: space-between;
+  /* Align-items alinha de forma vertical, a nao ser que a flex-direction seja COLUMN */
+  align-items: center;
+}
+
+/* Hero Section */
+
+#hero-container {
+  background-color: #0b090a;
+  color: #ffffff;
+  padding: 0 72px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.hero-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 96px 0;
+}
+
+.hero-img {
+  flex: 1;
+  align-self: flex-end;
+}
+
+.hero-img img {
+  width: 100%;
+}
+
+.hero-text__title {
+  font-size: 56px;
+  line-height: 64px;
+  /* Tamanho da fonte, de acordo com google fonts, 300, 400, 700, etc, usa-se o font-weight */
+  font-weight: 700;
+}
+
+.hero-text__subtitle {
+  font-size: 20px;
+  line-height: 28px;
+  max-width: 520px;
+}
+
+/* Services Section */
+
+#services-container {
+  padding: 96px 72px;
+}
+
+.services-list {
+  margin-top: 48px;
+  display: flex;
+  gap: 32px;
+}
+
+.service-card {
+  background-color: #f5f3f4;
+  border: 2px solid #d3d3d3;
+}
+
+.service-card img {
+  width: 100%;
+}
+
+.service-card__text {
+  padding: 32px;
+}
+
+.service-card__text h3 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.service-card__text p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* Location Section */
+
+#location-container {
+  background-color: #f5f3f4;
+}
+
+#location-container .location {
+  padding: 96px 72px 48px;
+}
+
+#location-container address {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #0b090a;
+  color: #ffffff;
+  padding: 48px 72px;
+  display: flex;
+  /* Justify-content alinha de forma horizontal, a nao ser que a flex-direction seja COLUMN */
+  justify-content: space-between;
+  /* Align-items alinha de forma vertical, a nao ser que a flex-direction seja COLUMN */
+  align-items: center;
+}
+
+footer a {
+  color: currentColor;
+}
+
+.footer-logocopy {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
